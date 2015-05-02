@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Smokybarretta/WBA_2_SoSe_2015/issues"
   },
-  "homepage": "https://github.com/Smokybarretta/WBA_2_SoSe_2015"
+  "homepage": "https://github.com/Smokybarretta/WBA_2_SoSe_2015",
+  "dependencies": {
+    "chalk": "^1.0.0"
+  }
 }
