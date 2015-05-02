@@ -1,0 +1,22 @@
+{
+  "name": "Aufgabe_1",
+  "version": "1.0.0",
+  "description": "Lösung zu Aufgabe 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Smokybarretta/WBA_2_SoSe_2015.git"
+  },
+  "author": "Anja Katrin Kaufmann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Smokybarretta/WBA_2_SoSe_2015/issues"
+  },
+  "homepage": "https://github.com/Smokybarretta/WBA_2_SoSe_2015",
+  "dependencies": {
+    "chalk": "^1.0.0"
+  }
+}
