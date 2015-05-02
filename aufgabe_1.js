@@ -22,9 +22,8 @@ fs.readFile("Wolkenkratzer.json", function(err, data){
     return a.hoehe-b.hoehe;
   });
 
-  data_sorted = JSON.stringify(body);
 
-  fs.writeFile("wolkenkratzer_sortiert.json",data_sorted, function(err) {
+  fs.writeFile("wolkenkratzer_sortiert.json",JSON.stringify(body), function(err) {
     if(err) throw err;
     for (var i=0; i<body.wolkenkratzer.length; i++){
       console.log(chalk.blue(body.wolkenkratzer[i].name));
